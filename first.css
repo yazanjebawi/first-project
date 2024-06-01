@@ -1,0 +1,49 @@
+#navebar{
+    background-color: gray;
+}
+#navelist{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    border-radius: 80px;
+}
+.boton{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    background-color:bisque;
+}
+.boton:hover{
+    background-color: antiquewhite;
+}
+.nave1{
+    background-color: bisque;
+}
+.first{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.paron{
+    border-radius: 80px;
+}
+.gridcont{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: beige;
+    
+
+}
+.gridul{
+    background-color: antiquewhite;
+    padding: 50px;
+
+}
