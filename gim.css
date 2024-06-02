@@ -1,0 +1,29 @@
+
+#navelist{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#goin{
+    border: 1px red solid;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radios:20px ;
+    -moz-border-radios:20px;
+    -ms-border-radios:20px;
+    -o-border-radios:20px;
+
+
+}
+#first{
+    background-image: url("../media/GYM.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
