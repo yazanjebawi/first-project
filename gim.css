@@ -11,7 +11,7 @@ a{
     color: black;
 }
 #goin{
-    border: 1px red solid;
+    border: 3px red solid;
     padding: 20px;
     border-radius: 20px;
     -webkit-border-radios:20px ;
@@ -22,8 +22,50 @@ a{
 
 }
 #first{
-    background-image: url("../media/GYM.jpg");
+    background-image: url("../media/gym.jpg");
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#first{
+    padding-top: 90px;
+    padding-left: 20px;
+}
+.t1{
+    color: aliceblue;
+font-size: 40px;
+}
+.t2{ 
+    color: red;
+    font-size: 35px;
+
+
+}
+.t3{
+    padding-bottom: 40px;
+    color: aliceblue;
+    font-size: 17px;
+}
+.ab{
+    padding-top: 30px;
+    font-size: 20;
+    color: aliceblue;
+    border: 3px red solid;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-border-radios:20px ;
+    -moz-border-radios:20px;
+    -ms-border-radios:20px;
+    -o-border-radios:20px;
+}
+.grid{
+    color: aliceblue;
+    display:grid;
+    grid-template-columns:200px 200px 200px;
+    column-gap: 5px;
+    
+
+}
+.nom{
+    color: red;
 }
