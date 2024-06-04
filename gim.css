@@ -10,7 +10,7 @@ a{
     text-decoration: none;
     color: black;
 }
-#goin{
+.goin{
     border: 3px red solid;
     padding: 20px;
     border-radius: 20px;
@@ -26,31 +26,39 @@ a{
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+.first2{
+    width: 500px;
+    padding-left: 50px;
+    padding-top:100px;
+    font-size: 40px;
+    color: aliceblue;
 }
 #first{
-    padding-top: 90px;
-    padding-left: 20px;
+
 }
 .t1{
     color: aliceblue;
-font-size: 40px;
+font-size: 30px;
 }
 .t2{ 
     color: red;
-    font-size: 35px;
+    font-size: 20px;
 
 
 }
 .t3{
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     color: aliceblue;
     font-size: 17px;
 }
 .ab{
-    padding-top: 30px;
-    font-size: 20;
-    color: aliceblue;
+    padding-top: 20px;
+    font-size: 20px;
+    background-color: rgba(255, 0 , 0, 0);
     border: 3px red solid;
+    color: aliceblue;
     padding: 20px;
     border-radius: 20px;
     -webkit-border-radios:20px ;
@@ -63,9 +71,25 @@ font-size: 40px;
     display:grid;
     grid-template-columns:200px 200px 200px;
     column-gap: 5px;
-    
+   
 
 }
 .nom{
     color: red;
+}
+.v{
+    border-right: 1px solid rgb(255, 252, 252);
+    font-size :10px;
+    text-align: center;
+    list-style-type: none;
+}
+.a{
+    font-size :10px;
+    text-align: center;
+    list-style-type: none;
+}
+.why{color: aliceblue;}
+.second{
+    text-align: center;
+    background-color: rgb(5, 5, 5);
 }
