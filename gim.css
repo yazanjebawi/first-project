@@ -160,7 +160,7 @@ body{
     background-color: black;
 }
     .mop{
-        align-items: center;
+       justify-self: center;
     
     
    }
