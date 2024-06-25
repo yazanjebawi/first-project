@@ -25,3 +25,23 @@ if(m>2){
 else{
     console.log('m is not greater than 2')
 }
+
+var li =document.getElementsByTagName('li')
+console.log(li)
+var h1 =document.getElementsByClassName('h1')
+console.log(h1)
+var move =document.getElementById('move')
+console.log(move)
+var modb=document.getElementById('modb')
+var body=document.getElementsByTagName('body')
+function moodchang(){
+    console.log(body[0].style.backgroundColor)
+    if(body[0].style.backgroundColor==''|| body[0].style.backgroundColor=='black'){
+         body[0].style.backgroundColor='white'
+         modb.innerHTML = 'change to dark mode'}
+    else{
+         body[0].style.backgroundColor = 'black'
+         modb.innerHTML = 'change to light mode'
+    }
+   
+}
