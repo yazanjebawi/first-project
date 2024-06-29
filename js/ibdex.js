@@ -34,6 +34,7 @@ var move =document.getElementById('move')
 console.log(move)
 var modb=document.getElementById('modb')
 var body=document.getElementsByTagName('body')
+
 function moodchang(){
     console.log(body[0].style.backgroundColor)
     if(body[0].style.backgroundColor==''|| body[0].style.backgroundColor=='black'){
@@ -43,5 +44,20 @@ function moodchang(){
          body[0].style.backgroundColor = 'black'
          modb.innerHTML = 'change to light mode'
     }
-   
 }
+
+
+
+const button = document.getElementById('bch');
+let isOldImage = true;
+
+function toggleBackground() {
+    if (isOldImage) {
+        document.body.style.backgroundImage = 'url("../media/bgn.jpg")'
+    } else {
+        document.body.style.backgroundImage = 'url("../media/gym.jpg")'
+    }
+    isOldImage = !isOldImage
+}
+
+button.addEventListener('click', toggleBackground)
