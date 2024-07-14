@@ -168,3 +168,59 @@ body{
     margin-bottom: 20px;
     align-items: center;
 }
+@media(max-width:599px) {
+    
+    .logo{
+width: 50%;
+    }
+    #navelist{
+        display: inherit;
+        padding: 0;
+        background-color: black;
+
+    }
+    .navei>a{
+        color: white;
+
+    }
+    .navei{
+        text-align: center;
+        border: 1px red solid;
+        font-size: 140%;
+        padding: 5px;
+    }
+    .goin{
+        border: 0px;
+    }
+    #modb{
+        border-radius: 20px;
+        padding: 3%;
+
+    }
+    #bch{
+        border-radius: 20px;
+        padding: 3%;
+
+    }
+    #first{
+        padding: 0px;
+    }
+    .first2{
+        padding: 0px;
+    }
+    .t1>h1{
+        text-align: center;
+        font-size: 80%;
+    }
+    #t2>h2{
+        text-align: center;
+        font-size: 80%;
+    }
+    #t3>h3{
+        text-align: center;
+        font-size: 80%;
+    }
+
+
+
+}
