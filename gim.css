@@ -7,8 +7,13 @@
     align-items: center;
     background-color: aliceblue;
 }
-
+.navei{
+    display: contents;
 }
+.phon{
+    display: none;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -229,6 +234,22 @@ width: 50%;
     }
     .grid{
         grid-template-columns: auto auto auto ;
+    }
+    .ab{
+        margin: auto;
+    }
+    .bisk{
+        display: none;
+    }
+    .phon{
+        display: contents;
+
+    }
+    .min{
+        color: red;
+        display: none;
+        background-color: brown;
+        font-size: 30px;
     }
     
  }

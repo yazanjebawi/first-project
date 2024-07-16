@@ -61,3 +61,15 @@ function toggleBackground() {
 }
 
 button.addEventListener('click', toggleBackground)
+
+var min = document.getElementsByClassName('min')[0]
+function display(){
+    console.log(min.style.display)
+    if(min.style.display=='none'||min.style.display==''){
+        min.style.display ='block'
+
+    }
+    else{
+         min.style.display ='none'
+    }
+}
