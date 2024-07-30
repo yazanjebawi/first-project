@@ -12,6 +12,7 @@ function ubdateRow(index){
     var handel=tableRow.children[3]
     modalbody=document.getElementsByClassName('modal-body')[0]
     modalbody.innerHTML=`
+    <input type="hidden" id="rowindex" value="${index}">
     <label>firstname</label>
     <input type="text" id="firstname" value="${firstname.innerHTML}">
     <label>lastname</label>
@@ -20,4 +21,25 @@ function ubdateRow(index){
     <input type="text" id="handel" value="${handel.innerHTML}">
     `
 
+}
+function updateform(){
+    var rowindex = document.getElementById('rowindex').value
+    var firstname = document.getElementById('firstname').value
+    var lastname = document.getElementById('lastname').value
+    var handel = document.getElementById('handel').value
+    console.log('up date',rowindex)
+    console.log(firstname,lastname,handel)
+    var tableRow =document.getElementsByClassName('tableRow')[parseInt(rowindex)]
+    tableRow.innerHTML=`
+    <td>${parseInt(rowindex)+1}</td>
+    <td>${firstname}</td>
+     <td>${lastname}</td>
+      <td>${handel}</td>
+       <td><button onclick="deleteRow(${rowindex})" >delet</button>
+</td>
+       <td><button onclick="updateform(${rowindex})" type="button" class="btn btn-primary">ubpdate</button>
+</td>
+
+`
+      
 }
